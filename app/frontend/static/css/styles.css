@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://images.wallpaperscraft.ru/image/single/doski_chb_dereviannyj_185764_1920x1080.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+body::after {
+    content: '';
+    background-color: black;
+    opacity: 0.4;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Футер */
+.container-footer {
+    margin-top: 100%;
+    position: relative;
+}
+
+/* Форма додавання аніме */
+.form-anime {
+    background-color: white;
+    height: 30vh; width: 40%;
+
+}

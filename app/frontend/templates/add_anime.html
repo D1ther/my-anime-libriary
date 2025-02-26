@@ -1,0 +1,22 @@
+{% extends "default.html" %}
+
+{% block main %}
+    <div class='form-anime'>
+        <h1>Додати аніме</h1>
+
+        <li class="anime-form-fields">
+            <ul id="anime-field" class="form-field-title">
+                {{form.title(placeholder=form.title.label.text)}}
+            </ul>
+            <ul id="anime-field" class="form-field-desc">
+                {{form.description(placeholder=form.description.label.text)}}
+            </ul>
+            <ul id="anime-field" class="form-field-rating">
+                {{form.rating(placeholder=form.rating.label.text)}}
+            </ul>
+            <ul id="anime-field" class="form-field-image">
+                {{form.image(placeholder=form.image.label.text)}}
+            </ul>
+        </li>
+    </div>
+{% endblock main %}
