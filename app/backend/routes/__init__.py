@@ -1,0 +1,1 @@
+from app.backend.routes.anime import *

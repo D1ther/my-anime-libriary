@@ -1,0 +1,1 @@
+from app.backend.db.models.anime import Anime

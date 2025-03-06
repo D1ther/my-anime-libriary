@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Phudu:wght@300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 body {
     background: url('https://images.wallpaperscraft.ru/image/single/doski_chb_dereviannyj_185764_1920x1080.jpg') no-repeat center fixed;
     background-size: cover;
+    font-family: "Phudu", sans-serif;
 }
 
 body::after {
@@ -19,6 +22,11 @@ body::after {
     width: 100%;
 }
 
+/* Навбар */
+.container-header {
+    color: red!important;
+}
+
 /* Футер */
 .container-footer {
     margin-top: 100%;
@@ -29,5 +37,4 @@ body::after {
 .form-anime {
     background-color: white;
     height: 30vh; width: 40%;
-
 }
